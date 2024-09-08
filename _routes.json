@@ -1,0 +1,12 @@
+{
+  "version": 1,
+  "include": [
+    "/*"
+  ],
+  "exclude": [
+    "/movie-finder/_astro/*",
+    "/movie-finder/favicon.ico",
+    "/movie-finder/logo.svg",
+    "/movie-finder/robots.txt"
+  ]
+}
