@@ -1,0 +1,25 @@
+{
+  "name": "movie-finder",
+  "version": "0.0.1",
+  "description": "A movie finder app built with Astro",
+  "author": "anthony chilan",
+  "scripts": {
+    "dev": "astro dev",
+    "start": "astro dev",
+    "build": "astro build",
+    "preview": "astro preview",
+    "astro": "astro"
+  },
+  "devDependencies": {
+    "@astrojs/tailwind": "^5.1.0",
+    "astro": "^4.10.2"
+  },
+  "dependencies": {
+    "@astrojs/cloudflare": "^10.4.0",
+    "@astrojs/react": "^3.6.2",
+    "@types/react": "^18.3.5",
+    "@types/react-dom": "^18.3.0",
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1"
+  }
+}
