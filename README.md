@@ -1,4 +1,4 @@
-# Movie Astro
+# Movie Finder
 
 
 ![Screenshot](./screenshot.png)
