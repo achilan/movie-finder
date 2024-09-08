@@ -7,7 +7,7 @@ import react from "@astrojs/react";
 // https://astro.build/config
 export default defineConfig({
   site:"https://achilan.github.io",
-  base: "movie-finder",
+  base: "/",
   integrations: [tailwind(), react()],
   output: 'server',
   adapter: cloudflare({
