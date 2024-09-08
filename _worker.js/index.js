@@ -1,6 +1,6 @@
 globalThis.process ??= {}; globalThis.process.env ??= {};
 import { renderers } from './renderers.mjs';
-import { manifest } from './manifest_DsZvG9Z1.mjs';
+import { manifest } from './manifest_BAoZKQch.mjs';
 import { c as createExports, b as serverEntrypointModule } from './chunks/@astrojs_XkseP6bl.mjs';
 import { onRequest } from './_noop-middleware.mjs';
 

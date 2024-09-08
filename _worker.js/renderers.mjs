@@ -4749,7 +4749,7 @@ const baseService = {
     Object.entries(params).forEach(([param, key]) => {
       options[key] && searchParams.append(param, options[key].toString());
     });
-    const imageEndpoint = joinPaths("/movie-finder", "/_image");
+    const imageEndpoint = joinPaths("/movie-finder/", "/_image");
     return `${imageEndpoint}?${searchParams}`;
   },
   parseURL(url) {
